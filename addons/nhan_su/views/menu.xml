@@ -1,0 +1,33 @@
+<odoo>
+    <menuitem id="menu_root" name="QLNS"/>
+
+    <menuitem id="menu_nhan_vien"
+              parent="menu_root"
+              name="Nhân viên"
+              action="action_nhan_vien"/>
+
+    <menuitem id="menu_phong_ban"
+              parent="menu_root"
+              name="Phòng ban"
+              action="action_phong_ban"/>
+
+    <menuitem id="menu_chuc_vu"
+              parent="menu_root"
+              name="Chức vụ"
+              action="action_chuc_vu"/>
+
+    <menuitem id="menu_chung_chi"
+              parent="menu_root"
+              name="Chứng chỉ"
+              action="action_chung_chi"/>
+
+    <menuitem id="menu_lich_su_cong_tac"
+              parent="menu_root"
+              name="Lịch sử công tác"
+              action="action_lich_su_cong_tac"/>
+
+    <menuitem id="menu_cham_cong"
+              parent="menu_root"
+              name="Chấm công"
+              action="action_cham_cong"/>
+</odoo>

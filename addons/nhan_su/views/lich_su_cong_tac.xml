@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- TREE -->
+        <record id="view_lich_su_cong_tac_tree" model="ir.ui.view">
+            <field name="name">lich.su.cong.tac.tree</field>
+            <field name="model">lich_su_cong_tac</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="nhan_vien_id"/>
+                    <field name="phong_ban_id"/>
+                    <field name="chuc_vu_id"/>
+                    <field name="tu_ngay"/>
+                    <field name="den_ngay"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- FORM -->
+        <record id="view_lich_su_cong_tac_form" model="ir.ui.view">
+            <field name="name">lich.su.cong.tac.form</field>
+            <field name="model">lich_su_cong_tac</field>
+            <field name="arch" type="xml">
+                <form string="Lịch sử công tác">
+                    <sheet>
+                        <group>
+                            <field name="nhan_vien_id"/>
+                            <field name="phong_ban_id"/>
+                            <field name="chuc_vu_id"/>
+                        </group>
+                        <group>
+                            <field name="tu_ngay"/>
+                            <field name="den_ngay"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- ACTION -->
+        <record id="action_lich_su_cong_tac" model="ir.actions.act_window">
+            <field name="name">Lịch sử công tác</field>
+            <field name="res_model">lich_su_cong_tac</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

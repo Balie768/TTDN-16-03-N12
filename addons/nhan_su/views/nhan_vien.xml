@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- ================= TREE VIEW ================= -->
+    <record id="view_nhan_vien_tree" model="ir.ui.view">
+        <field name="name">nhan.vien.tree</field>
+        <field name="model">nhan_vien</field>
+        <field name="arch" type="xml">
+            <tree string="Danh sách nhân viên">
+                <field name="ma_dinh_danh"/>
+                <field name="ho_ten"/>
+                <field name="phong_ban_id"/>
+                <field name="email"/>
+                <field name="so_dien_thoai"/>
+                <field name="luong"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ================= FORM VIEW ================= -->
+    <record id="view_nhan_vien_form" model="ir.ui.view">
+        <field name="name">nhan.vien.form</field>
+        <field name="model">nhan_vien</field>
+        <field name="arch" type="xml">
+            <form string="Nhân viên">
+                <sheet>
+
+                    <!-- THÔNG TIN CHUNG -->
+                    <group>
+                        <group>
+                            <field name="ma_dinh_danh" readonly="1"/>
+                            <field name="ho_ten"/>
+                            <field name="phong_ban_id"/>
+                        </group>
+
+                        <group>
+                            <field name="ngay_sinh"/>
+                            <field name="que_quan"/>
+                        </group>
+                    </group>
+
+                    <!-- THÔNG TIN LIÊN HỆ -->
+                    <group string="Thông tin liên hệ" col="2">
+                        <field name="email"/>
+                        <field name="so_dien_thoai"/>
+                        <field name="dia_chi"/>
+                    </group>
+
+                    <!-- THÔNG TIN KHÁC -->
+                    <group string="Thông tin khác" col="2">
+                        <field name="so_bhxh"/>
+                        <field name="luong"/>
+                    </group>
+
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- ================= ACTION ================= -->
+    <record id="action_nhan_vien" model="ir.actions.act_window">
+        <field name="name">Nhân viên</field>
+        <field name="res_model">nhan_vien</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>

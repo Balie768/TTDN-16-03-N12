@@ -1,0 +1,47 @@
+1️⃣ models/chuc_vu.py
+from odoo import models, fields
+
+class ChucVu(models.Model):
+    _name = 'chuc_vu'
+    _description = 'Chức vụ'
+
+    ma_chuc_vu = fields.Char(string='Mã chức vụ', required=True)
+    ten_chuc_vu = fields.Char(string='Tên chức vụ', required=True)
+    mo_ta = fields.Text(string='Mô tả')
+
+2️⃣ models/chung_chi.py
+from odoo import models, fields
+
+class ChungChi(models.Model):
+    _name = 'chung_chi'
+    _description = 'Chứng chỉ'
+
+    ten_chung_chi = fields.Char(string='Tên chứng chỉ', required=True)
+    ngay_cap = fields.Date(string='Ngày cấp')
+    noi_cap = fields.Char(string='Nơi cấp')
+    nhan_vien_id = fields.Many2one('nhan_vien', string='Nhân viên')
+
+3️⃣ models/lich_su_cong_tac.py
+from odoo import models, fields
+
+class LichSuCongTac(models.Model):
+    _name = 'lich_su_cong_tac'
+    _description = 'Lịch sử công tác'
+
+    nhan_vien_id = fields.Many2one('nhan_vien', string='Nhân viên', required=True)
+    phong_ban_id = fields.Many2one('phong_ban', string='Phòng ban')
+    chuc_vu_id = fields.Many2one('chuc_vu', string='Chức vụ')
+    tu_ngay = fields.Date(string='Từ ngày')
+    den_ngay = fields.Date(string='Đến ngày')
+
+4️⃣ models/cham_cong.py
+from odoo import models, fields
+
+class ChamCong(models.Model):
+    _name = 'cham_cong'
+    _description = 'Chấm công'
+
+    nhan_vien_id = fields.Many2one('nhan_vien', string='Nhân viên', required=True)
+    ngay = fields.Date(string='Ngày', required=True)
+    gio_vao = fields.Float(string='Giờ vào')
+    gio_ra = fields.Float(string='Giờ ra')

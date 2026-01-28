@@ -67,19 +67,19 @@ Dưới đây là 1 số hình ảnh minh hoạ
 > Theo dõi và xử lý công việc phát sinh từ văn bản đến theo quy trình nghiệp vụ
 ## **Một số cấu hình kèm theo:**
 
-    ### **1.Độ mật**
+   ###   **1.Độ mật**
    ![VB_domat](images/VB_domat.png)
    > Thiết lập mức độ bảo mật cho văn bản
-    ### *2.Trạng thái**
+ ### **2.Trạng thái**
    ![VB_TT](images/VB_TT.png)
   >  Quản lý trạng thái xử lý của văn bản trong hệ thống
-    ### **3.Loại văn bản**
+### **3.Loại văn bản**
    ![VB_HS](images/VB_HS.png)
    > Phân loại văn bản theo nhóm nghiệp vụ
-    ### **4.Hồ sơ**
+### **4.Hồ sơ**
    ![VB_HS](images/VB_HS.png)
    > Quản lý hồ sơ lưu trữ văn bản theo từng danh mục
-   ### **5. Năm**
+### **5. Năm**
    ![VB_nam](images/VB_nam.png)
    >  Phân loại và tra cứu văn bản theo năm ban hành
 

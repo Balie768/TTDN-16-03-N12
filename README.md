@@ -57,26 +57,32 @@ Dưới đây là 1 số hình ảnh minh hoạ
 ### **1. Trang Văn bản đến**
 ![VB_den](images/VB_den.png)
 ![VB_den1](images/VB_den1.png)
+> Giao diện quản lý văn bản đến, theo dõi trạng thái xử lý và phân công công việc liên quan
 ### **2. Trang Văn bản đi**
 ![VB_di](images/VB_di.png)
 ![VB_di1](images/VB_di1.png)
+> Quản lý văn bản đi, lưu trữ thông tin phát hành và kiểm soát luồng xử lý văn bản
 ### **3. Trang Quản lý công việc**
 ![VB_CV](images/VB_CV.png)
 ![VB_CV1](images/VB_CV1.png)
-
+> Theo dõi và xử lý công việc phát sinh từ văn bản đến theo quy trình nghiệp vụ
 6. Một số cấu hình kèm theo:
 
-    Độ mật
+    **Độ mật**
    ![VB_domat](images/VB_domat.png)
-    Trạng thái
+   > Thiết lập mức độ bảo mật cho văn bản
+    **Trạng thái**
    ![VB_TT](images/VB_TT.png)
-    Loại văn bản
+  >  Quản lý trạng thái xử lý của văn bản trong hệ thống
+    **Loại văn bản**
    ![VB_HS](images/VB_HS.png)
-    Hồ sơ
+   > Phân loại văn bản theo nhóm nghiệp vụ
+    **Hồ sơ**
    ![VB_HS](images/VB_HS.png)
-    Năm
+   > Quản lý hồ sơ lưu trữ văn bản theo từng danh mục
+    **Năm**
    ![VB_nam](images/VB_nam.png)
-
+   >  Phân loại và tra cứu văn bản theo năm ban hành
 
 # QUẢN LÝ NHÂN SỰ
 
@@ -86,28 +92,28 @@ Dưới đây là 1 số hình ảnh minh hoạ
 
 ![NS](images/NS.png)
 ![NS_1](images/NS_1.png)
-
+> Quản lý thông tin cá nhân và hồ sơ nhân viên
 ### **2. Trang Chức vụ **
 ![NS_CV](images/NS_CV.png)
 ![NS_CV1](images/NS_CV1.png)
-
+> Quản lý danh sách chức vụ và phân quyền nhân sự
 ### **3. Trang chấm công**
 
 ![NS_chamcong](images/NS_chamcong.png)
 ![NS_chamcong1](images/NS_chamcong1.png)
-
+> Theo dõi và quản lý dữ liệu chấm công của nhân viên
 ### **4. Trang Lịch sử công tác**
 ![NS_LSCT](images/NS_LSCT.png)
 ![NS_LSCT1](images/NS_LSCT1.png)
-
+> Lưu trữ và theo dõi quá trình công tác của nhân viên
 ### **5. Trang Lịch sử đào tạo**
 ![NS_LSDT](images/NS_LSDT.png)
 ![NS_LSDT1](images/NS_LSDT1.png)
-
+> Quản lý thông tin đào tạo, bồi dưỡng và nâng cao nghiệp vụ
 ### **6. Trang Danh sách chứng chỉ, bằng** 
 ![NS_CCBC](images/NS_CCBC.png)
 ![NS_CCBD1](images/NS_CCBD1.png)
-    
+>  Quản lý chứng chỉ, bằng cấp và trình độ chuyên môn của nhân viên   
 ##  Công nghệ sử dụng
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)

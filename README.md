@@ -120,6 +120,8 @@ Quản lý Nhân sự hỗ trợ doanh nghiệp quản lý thông tin nhân viê
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
+## Tích hợp AI trong hệ thống
+
 ## Cài đặt môi trường
 
 ### 1. Clone dự án

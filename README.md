@@ -46,7 +46,30 @@ Dự án **Quản Lý Khách Hàng** cung cấp các chức năng chính nhằm 
 - **Thêm sản phẩm**  
 - **Thêm đơn hàng sản phẩm của khách hàng**  
 
-## 4. Công nghệ sử dụng
+# Hệ thống quản lý văn bản
+
+Hệ thống được xây dựng dựa trên thông tư 30 về công tác văn thư. Hệ thống cho phép người dùng quản lý văn bản đi, quản lý văn bản đến. Các văn bản đến sẽ được xử lý thông qua moulde quản lý công việc.
+Hệ thống xây dựng trên nền tảng odoo 15. 
+
+Dưới đây là 1 số hình ảnh minh hoạ
+1. Văn bản đến
+![alt text](image-5.png)
+![alt text](image-6.png)
+2. Văn bản đi
+![alt text](image-1.png)
+![alt text](image-4.png)
+3. Quản lý công việc
+![alt text](image-7.png)
+
+4. Một số cấu hình kèm theo:
+
+    Độ mật,
+    Trạng thái,
+    Loại văn bản,
+    Hồ sơ,
+    Năm
+
+##  Công nghệ sử dụng
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
@@ -55,15 +78,15 @@ Dự án **Quản Lý Khách Hàng** cung cấp các chức năng chính nhằm 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
-## 5. Cài đặt môi trường
+## Cài đặt môi trường
 
-### 5.1. Clone dự án
+### 1. Clone dự án
 ```sh
 git clone https://gitlab.com/Drabula/TTDN-15-04-N8.git
 cd TTDN-15-04-N8
 ```
 
-### 5.2. Cài đặt các thư viện cần thiết
+### 2. Cài đặt các thư viện cần thiết
 Chạy lệnh sau để cài đặt các thư viện bắt buộc:
 ```sh
 sudo apt-get install libxml2-dev libxslt-dev libldap2-dev libsasl2-dev \
@@ -71,23 +94,23 @@ libssl-dev python3.10-distutils python3.10-dev build-essential libffi-dev \
 zlib1g-dev python3.10-venv libpq-dev
 ```
 
-### 5.3. Khởi tạo môi trường ảo
+### 3. Khởi tạo môi trường ảo
 ```sh
 python3.10 -m venv ./venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-## 6. Cấu hình Database
+###  Cấu hình Database
 Hệ thống sử dụng PostgreSQL chạy trên Docker. Để khởi tạo database, thực hiện:
 ```sh
 sudo apt install docker-compose
 sudo docker-compose up -d
 ```
 
-## 7. Cấu hình hệ thống
+##  Cấu hình hệ thống
 
-### 7.1. Tạo tệp `odoo.conf`
+### Tạo tệp `odoo.conf`
 Tạo tệp `odoo.conf` với nội dung sau:
 ```ini
 [options]
@@ -99,7 +122,7 @@ db_port = 5434
 xmlrpc_port = 8069
 ```
 
-## 8. Chạy hệ thống
+##  Chạy hệ thống
 
 Chạy lệnh sau để khởi động hệ thống:
 ```sh

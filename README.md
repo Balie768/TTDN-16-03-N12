@@ -2,7 +2,7 @@
 
 ## 1. Giới thiệu
 
-Dự án **Quản Lý Khách Hàng** cung cấp các chức năng chính nhằm hỗ trợ doanh nghiệp trong việc quản lý và chăm sóc khách hàng hiệu quả. Hệ thống giúp theo dõi thông tin khách hàng, hỗ trợ khách hàng, thống kê hiệu suất làm việc của nhân viên và bảng xếp hạng khách hàng mua hàng. Ngoài ra, người dùng còn có thể thêm sản phẩm và đơn hàng của khách hàng.
+Quản lý Khách hàng hỗ trợ doanh nghiệp theo dõi và quản lý toàn diện thông tin khách hàng trong suốt quá trình tương tác và mua hàng. Hệ thống cho phép lưu trữ thông tin chi tiết khách hàng, quản lý sản phẩm và đơn hàng, hỗ trợ chăm sóc khách hàng thông qua các yêu cầu hỗ trợ và gửi email thông báo.
 
 ## 2. Hình ảnh minh họa 📸
 
@@ -38,20 +38,19 @@ Dự án **Quản Lý Khách Hàng** cung cấp các chức năng chính nhằm 
 
 ## 3. Chức năng chính
 
-- **Xem thông tin khách hàng**  
-- **Hỗ trợ khách hàng**  
-- **Thống kê hỗ trợ của nhân viên**  
-- **Bảng xếp hạng khách hàng mua hàng**  
+- Xem thông tin khách hàng 
+- Hỗ trợ khách hàng
+- Thống kê hỗ trợ của nhân viên
+- Gửi và quản lí Email
 
 ### Chức năng phụ
 
-- **Thêm sản phẩm**  
-- **Thêm đơn hàng sản phẩm của khách hàng**  
+- Thêm sản phẩm
+- Thêm đơn hàng sản phẩm của khách hàng 
 
-# Hệ thống quản lý văn bản
+# Quản lý văn bản
 
-Hệ thống được xây dựng dựa trên thông tư 30 về công tác văn thư. Hệ thống cho phép người dùng quản lý văn bản đi, quản lý văn bản đến. Các văn bản đến sẽ được xử lý thông qua moulde quản lý công việc.
-Hệ thống xây dựng trên nền tảng odoo 15. 
+Quản lý Văn bản được xây dựng dựa trên Thông tư 30 về công tác văn thư, nhằm hỗ trợ quản lý văn bản đi và văn bản đến một cách khoa học và hiệu quả. Hệ thống cho phép phân loại văn bản theo độ mật, trạng thái, loại văn bản, hồ sơ và năm ban hành; đồng thời theo dõi quá trình xử lý văn bản thông qua phân hệ quản lý công việc. Nhờ đó, doanh nghiệp có thể kiểm soát chặt chẽ luồng xử lý văn bản, đảm bảo tính chính xác, bảo mật và tuân thủ quy trình nghiệp vụ.
 
 Dưới đây là 1 số hình ảnh minh hoạ
 ### **1. Trang Văn bản đến**
@@ -84,10 +83,8 @@ Dưới đây là 1 số hình ảnh minh hoạ
    ![VB_nam](images/VB_nam.png)
    >  Phân loại và tra cứu văn bản theo năm ban hành
 
-# QUẢN LÝ NHÂN SỰ
-
-## Demo sản phẩm:
-
+# Quản lí nhân sự
+Quản lý Nhân sự hỗ trợ doanh nghiệp quản lý thông tin nhân viên một cách tập trung và đầy đủ. Hệ thống cho phép theo dõi hồ sơ nhân viên, chức vụ, chấm công, lịch sử công tác, lịch sử đào tạo cũng như chứng chỉ, bằng cấp của nhân sự. Thông qua phân hệ này, doanh nghiệp có thể quản lý nguồn nhân lực hiệu quả, phục vụ công tác đánh giá, điều động và phát triển nhân sự lâu dài.
 ### **1. Trang  Nhân viên**
 
 ![NS](images/NS.png)

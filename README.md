@@ -75,7 +75,7 @@ Dưới đây là 1 số hình ảnh minh hoạ
     Hồ sơ
    ![VB_HS](images/VB_HS.png)
     Năm
-   ![VB_nam](images/VB_namt.png)
+   ![VB_nam](images/VB_nam.png)
 
 
 # QUẢN LÝ NHÂN SỰ

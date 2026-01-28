@@ -54,13 +54,13 @@ Hệ thống được xây dựng dựa trên thông tư 30 về công tác văn
 Hệ thống xây dựng trên nền tảng odoo 15. 
 
 Dưới đây là 1 số hình ảnh minh hoạ
-### **1. Trang Văn bản đến
+### **1. Trang Văn bản đến**
 ![VB_den](images/VB_den.png)
 ![VB_den1](images/VB_den1.png)
-### **2. Trang Văn bản đi
+### **2. Trang Văn bản đi**
 ![VB_di](images/VB_di.png)
 ![VB_di1](images/VB_di1.png)
-### **3. Trang Quản lý công việc
+### **3. Trang Quản lý công việc**
 ![VB_CV](images/VB_CV.png)
 ![VB_CV1](images/VB_CV1.png)
 
@@ -82,29 +82,29 @@ Dưới đây là 1 số hình ảnh minh hoạ
 
 ## Demo sản phẩm:
 
-### **1. Trang  Nhân viên
+### **1. Trang  Nhân viên**
 
 ![NS](images/NS.png)
 ![NS_1](images/NS_1.png)
 
-### **2. Trang Chức vụ 
+### **2. Trang Chức vụ **
 ![NS_CV](images/NS_CV.png)
 ![NS_CV1](images/NS_CV1.png)
 
-### **3. Trang chấm công
+### **3. Trang chấm công**
 
 ![NS_chamcong](images/NS_chamcong.png)
 ![NS_chamcong1](images/NS_chamcong1.png)
 
-### **4. Trang Lịch sử công tác
+### **4. Trang Lịch sử công tác**
 ![NS_LSCT](images/NS_LSCT.png)
 ![NS_LSCT1](images/NS_LSCT1.png)
 
-### **5. Trang Lịch sử đào tạo
+### **5. Trang Lịch sử đào tạo**
 ![NS_LSDT](images/NS_LSDT.png)
 ![NS_LSDT1](images/NS_LSDT1.png)
 
-### **6. Trang Danh sách chứng chỉ, bằng 
+### **6. Trang Danh sách chứng chỉ, bằng** 
 ![NS_CCBC](images/NS_CCBC.png)
 ![NS_CCBD1](images/NS_CCBD1.png)
     

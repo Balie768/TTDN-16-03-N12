@@ -185,5 +185,5 @@ python3 odoo-bin.py -c odoo.conf -u all
 Sau khi chạy xong, truy cập [http://localhost:8069/](http://localhost:8069/) để đăng nhập vào hệ thống.
 
 ---
-**Hoàn tất cài đặt!** 🚀
-Nhóm 12 - CNTT16-03
+**Hoàn tất cài đặt!** 
+**Nhóm 12 - CNTT16-03**

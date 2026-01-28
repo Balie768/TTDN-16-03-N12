@@ -7,31 +7,27 @@ Dự án **Quản Lý Khách Hàng** cung cấp các chức năng chính nhằm 
 ## 2. Hình ảnh minh họa 📸
 
 ### **1. Trang quản lý khách hàng**
-![img_7.png](img_7.png)
+![KH_ttin](images/KH_ttin.png)
 > Giao diện quản lý thông tin khách hàng
 
 ### **2. Trang hỗ trợ khách hàng**
-![img_8.png](img_8.png)
+![KH_hotro](images/KH_hotro.png)
 > Quản lý yêu cầu và phản hồi từ khách hàng
 
 ### **3. Trang thống kê hỗ trợ khách hàng**
-![img_9.png](img_9.png)
+![KH_tke](images/KH_tke.png)
 > Biểu đồ thống kê hiệu suất hỗ trợ khách hàng của nhân viên
 
-### **4. Trang xếp hạng khách hàng**
-![img_3.png](img_3.png)
-> Bảng xếp hạng khách hàng theo mức độ mua hàng
-
-### **5. Trang quản lý email và gửi thông báo**
-![img_4.png](img_4.png)
+### **4. Trang quản lý email và gửi thông báo**
+![KH_mail](images/KH_mail.png)
 > Giao diện quản lý email và gửi thông báo đến khách hàng
 
-### **6. Trang chi tiết đơn hàng**
-![img_5.png](img_5.png)
+### **5. Trang chi tiết đơn hàng**
+![KH_DH](images/KH_DH.png)
 > Hiển thị thông tin chi tiết đơn hàng của khách hàng
 
-### **7. Trang chi tiết sản phẩm**
-![img_6.png](img_6.png)
+### **. Trang chi tiết sản phẩm**
+![KH_SP](images/KH_SP.png)
 > Thông tin sản phẩm chi tiết dành cho khách hàng
 
 ## 3. Chức năng chính
@@ -53,21 +49,24 @@ Hệ thống xây dựng trên nền tảng odoo 15.
 
 Dưới đây là 1 số hình ảnh minh hoạ
 1. Văn bản đến
-![alt text](image-5.png)
-![alt text](image-6.png)
+![VB_den](images/VB_den.png)
 2. Văn bản đi
-![alt text](image-1.png)
-![alt text](image-4.png)
+![VB_di](images/VB_di.png)
 3. Quản lý công việc
-![alt text](image-7.png)
+![VB_CV](images/VB_CV.png)
 
 4. Một số cấu hình kèm theo:
 
-    Độ mật,
-    Trạng thái,
-    Loại văn bản,
-    Hồ sơ,
+    Độ mật
+   ![VB_domat](images/VB_domat.png)
+    Trạng thái
+   ![VB_TT](images/VB_TT.png)
+    Loại văn bản
+   ![VB_HS](images/VB_HS.png)
+    Hồ sơ
+   ![VB_HS](images/VB_HS.png)
     Năm
+   ![VB_nam](images/VB_namt.png)
 
 ##  Công nghệ sử dụng
 

@@ -8,26 +8,32 @@ Dự án **Quản Lý Khách Hàng** cung cấp các chức năng chính nhằm 
 
 ### **1. Trang quản lý khách hàng**
 ![KH_ttin](images/KH_ttin.png)
+![KH_ttin1](images/KH_ttin1.png)
 > Giao diện quản lý thông tin khách hàng
 
 ### **2. Trang hỗ trợ khách hàng**
 ![KH_hotro](images/KH_hotro.png)
+![KH_hotro1](images/KH_hotro1.png)
 > Quản lý yêu cầu và phản hồi từ khách hàng
 
 ### **3. Trang thống kê hỗ trợ khách hàng**
 ![KH_tke](images/KH_tke.png)
+![KH_tke1](images/KH_tke1.png)
 > Biểu đồ thống kê hiệu suất hỗ trợ khách hàng của nhân viên
 
 ### **4. Trang quản lý email và gửi thông báo**
 ![KH_mail](images/KH_mail.png)
+![KH_mail1](images/KH_mail1.png)
 > Giao diện quản lý email và gửi thông báo đến khách hàng
 
 ### **5. Trang chi tiết đơn hàng**
 ![KH_DH](images/KH_DH.png)
+![KH_DH1](images/KH_DH1.pn.jpg)
 > Hiển thị thông tin chi tiết đơn hàng của khách hàng
 
 ### **6. Trang chi tiết sản phẩm**
 ![KH_SP](images/KH_SP.png)
+![KH_SP1](images/KH_SP1.png)
 > Thông tin sản phẩm chi tiết dành cho khách hàng
 
 ## 3. Chức năng chính
@@ -50,12 +56,15 @@ Hệ thống xây dựng trên nền tảng odoo 15.
 Dưới đây là 1 số hình ảnh minh hoạ
 1. Văn bản đến
 ![VB_den](images/VB_den.png)
-2. Văn bản đi
+![VB_den1](images/VB_den1.png)
+3. Văn bản đi
 ![VB_di](images/VB_di.png)
-3. Quản lý công việc
+![VB_di1](images/VB_di1.png)
+4. Quản lý công việc
 ![VB_CV](images/VB_CV.png)
+![VB_CV1](images/VB_CV1.png)
 
-4. Một số cấu hình kèm theo:
+6. Một số cấu hình kèm theo:
 
     Độ mật
    ![VB_domat](images/VB_domat.png)
@@ -68,6 +77,36 @@ Dưới đây là 1 số hình ảnh minh hoạ
     Năm
    ![VB_nam](images/VB_namt.png)
 
+
+# QUẢN LÝ NHÂN SỰ
+
+## Demo sản phẩm:
+
+Chức năng Nhân viên
+
+![NS](images/NS.png)
+![NS_1](images/NS_1.png)
+
+Chức năng Chức vụ 
+![NS_CV](images/NS_CV.png)
+![NS_CV1](images/NS_CV1.png)
+
+Chức năng chấm công
+
+![NS_chamcong](images/NS_chamcong.png)
+![NS_chamcong1](images/NS_chamcong1.png)
+
+Chức năng Lịch sử công tác
+![NS_LSCT](images/NS_LSCT.png)
+![NS_LSCT1](images/NS_LSCT1.png)
+Chức năng Lịch sử đào tạo
+![NS_LSDT](images/NS_LSDT.png)
+![NS_LSDT1](images/NS_LSDT1.png)
+
+Chức năng Danh sách chứng chỉ, bằng 
+![NS_CCBC](images/NS_CCBC.png)
+![NS_CCBD1](images/NS_CCBD1.png)
+    
 ##  Công nghệ sử dụng
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)

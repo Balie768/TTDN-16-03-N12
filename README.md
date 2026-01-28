@@ -137,7 +137,7 @@ Quản lý Nhân sự hỗ trợ doanh nghiệp quản lý thông tin nhân viê
 ### 1. Clone dự án
 ```sh
 git clone https://gitlab.com/Balie768/TTDN-16-03-N12.git
-cd TTDN-15-04-N8
+cd TTDN-16-03-N12
 ```
 
 ### 2. Cài đặt các thư viện cần thiết

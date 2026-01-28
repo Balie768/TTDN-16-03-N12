@@ -26,7 +26,7 @@ Dự án **Quản Lý Khách Hàng** cung cấp các chức năng chính nhằm 
 ![KH_DH](images/KH_DH.png)
 > Hiển thị thông tin chi tiết đơn hàng của khách hàng
 
-### **. Trang chi tiết sản phẩm**
+### **6. Trang chi tiết sản phẩm**
 ![KH_SP](images/KH_SP.png)
 > Thông tin sản phẩm chi tiết dành cho khách hàng
 

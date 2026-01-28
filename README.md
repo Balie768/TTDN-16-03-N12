@@ -65,7 +65,7 @@ Dưới đây là 1 số hình ảnh minh hoạ
 ![VB_CV](images/VB_CV.png)
 ![VB_CV1](images/VB_CV1.png)
 > Theo dõi và xử lý công việc phát sinh từ văn bản đến theo quy trình nghiệp vụ
-### **Một số cấu hình kèm theo:**
+## **Một số cấu hình kèm theo:**
 
     ### **1.**Độ mật**
    ![VB_domat](images/VB_domat.png)

@@ -90,7 +90,8 @@ Quản lý Nhân sự hỗ trợ doanh nghiệp quản lý thông tin nhân viê
 ![NS](images/NS.png)
 ![NS_1](images/NS_1.png)
 > Quản lý thông tin cá nhân và hồ sơ nhân viên
-### **2. Trang Chức vụ **
+
+### **2. Trang Chức vụ**
 ![NS_CV](images/NS_CV.png)
 ![NS_CV1](images/NS_CV1.png)
 > Quản lý danh sách chức vụ và phân quyền nhân sự

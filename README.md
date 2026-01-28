@@ -122,6 +122,11 @@ Quản lý Nhân sự hỗ trợ doanh nghiệp quản lý thông tin nhân viê
 
 ## Tích hợp AI trong hệ thống
 
+- Tích hợp AI trong viết email giúp hỗ trợ người dùng soạn thảo nội dung email gửi đến khách hàng một cách nhanh chóng, chính xác và chuyên nghiệp. Dựa trên thông tin khách hàng, loại email (chăm sóc, thông báo, khuyến mãi, cảm ơn…) và ngữ cảnh sử dụng, hệ thống AI có thể tự động gợi ý nội dung email phù hợp, giúp giảm thời gian soạn thảo và hạn chế sai sót.
+
+- AI cho phép người dùng tùy chỉnh nội dung gợi ý trước khi gửi, đảm bảo email vẫn mang tính cá nhân hóa và phù hợp với mục tiêu giao tiếp. Việc tích hợp AI không chỉ nâng cao hiệu quả chăm sóc khách hàng mà còn góp phần cải thiện trải nghiệm người dùng và tính chuyên nghiệp của hệ thống.
+![AI](images/AI.png)
+
 ## Cài đặt môi trường
 
 ### 1. Clone dự án
